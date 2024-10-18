@@ -66,10 +66,16 @@ body {
   }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 479px) {
+    .topnav{
+        width: ;
+    }
     section .row{
         flex-direction: column;
         text-align: center;
+    }
+    .call-action{
+        font-size: 15px;
     }
     .box{
         width: 100%;
